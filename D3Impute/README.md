@@ -1,13 +1,14 @@
 D3Impute: Dropout-aware Discrimination, Distribution-aware Modeling, and Density-guided Imputation for scRNA-seq data.
 
-Usage Instructions      
+\textbf{Usage Instructions}      
+
 MATLAB Users
 
 For new datasets:
 
--Step 1: Run 00_Parameter.m to perform grid search and tune parameters. 
+- Step 1: Run 00_Parameter.m to perform grid search and tune parameters. 
 
--Step 2: Run 01_D3Impute.m to perform imputation.
+- Step 2: Run 01_D3Impute.m to perform imputation.
 
 For existing datasets:
 
@@ -17,7 +18,8 @@ Python Users
 
 Run D3Impute.py to execute the imputation pipeline. The default demo dataset is Siletti. You may replace it with your own data.
 
-Benchmarking & Visualization
+\textbf{Benchmarking & Visualization}
+
 MATLAB version includes:
 
 - Clustering performance comparison across 13 algorithms (02_methodCompare.m)
